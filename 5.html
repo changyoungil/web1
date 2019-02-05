@@ -1,0 +1,82 @@
+<!doctype thml>
+<html>
+  <head>
+    <title>WEB1 - 강의노트</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+
+    <div id="grid">
+      <ol>
+      <li><a href="1.html" class="saw">생활코딩</a></li>
+      <li><a href="4.html" class="saw">WEB1-강의노트</a></li>
+      <li><a href="5.html" class="saw">WEB2-CSS</a></li>
+      <!--li><a href="5.html" id="active">WEB2-CSS</a></li-->
+      <!--li><a href="5.html"  class="saw"style="color:red; text-decoration:underline;" >WEB2-CSS</a></li-->
+      </ol>
+      <div id="article">
+        <h2>강의노트</h2>
+
+        <p> WEB2 - CSS URL : <a href="https://opentutorials.org/course/3084" target="_blank">https://opentutorials.org/course/3086</a><br>
+        <p> WEB2 - CSS Ref URL : <a href="https://www.w3schools.com" target="_blank">w3schools</a><br>
+
+
+        <p> 3강 :  CSS등장 <br>
+        - head태그 안에 style태그 입력 <br>
+        - a태그에 대한 red color 적용 : a { color:red; } <br>
+        - css를 통해 중복코딩을 극단적으로 줄일 수 있다. <br>
+        - 코드가 간결해지고 디자인과 관련된 태그는 style에서만 확인하면 된다. <br><br>
+
+
+        4강 :  CSS의 기본문법 <br>
+        - style태그만 가지고 처리 할 수 있는것이 아니라 속성을 통해 CSS적용가능 <br>
+        - style태그 : a태그에 대한 red color 적용 : a { color:red; } <br>
+        - 속성 : [a href = "" style="color:red"] DISPLAY [/a] <br>
+        - 중괄호 : 선택자 selector : 효과적용<br><br>
+
+        6강 :  CSS속성 알아내기 <br>
+        - 구글링해서 속성 찾아보자 <br>
+        - 아톰에디터 자동완성 기능 추가설치 : emmmet (file - setting - install - emmmet) <br><br>
+
+
+        7강 :  CSS선택자의 기본 <br>
+        - 모든 태그에대한 설정을 하지만, 그중에서 별도로 선별하여 처리 할수 있는 방법 <br>
+        - 태그 안에 속성 class="saw" 로 처리 <br>
+        - 위에처럼 class처리를 하여 Style css에서 '.saw' 를 선언하여 해당 class들만 처리되게 함. <br>
+        - 같은 class선택자를 두개이상 사용할 경우 class="saw class" 가장 마지막에 있는 css를 적용하게 된다. (케스케이드방식) <br>
+        - 위의 문제를 해결하기 위해 id="active" 를 속성으로 설정하고, css에서 #active로 처리하면 class선택자보다 id선택자가 우선순위를 갖는다. <br>
+        - 선택자우선순위 : ID선택자 > class선택자  > tag선택자 <br>
+        - 동일선택자 우선순위 : 케스케이드 방식 <br>
+        - ID선택자 : 반드시 한번만 사용해야 한다. <br>
+        - 우선순위 설정방법 : 좀더 구체적인것에 우선순위를 준다.<br><br>
+
+
+        8강 : 박스모델 <br>
+        -  <a href="boxmodel.html" class="saw" id="active">박스모델</a><br><br>
+
+
+        9강 : 박스모델 써먹기 <br>
+        -  <a href="boxmodel.html" class="saw" id="active">박스모델</a><br><br>
+
+
+        10강 : 그리드소개 <br>
+        -  <a href="grid.html" class="saw" id="active">그리드</a><br><br>
+
+        11강 : 그리드써먹기 <br>
+        -  <a href="grid.html" class="saw" id="active">그리드</a><br><br>
+
+        12강 : 미디어쿼리 소개 <br>
+        - 반응형 디자인 : 화면의 크기에 따라 웹페이지의 요소들이 달라지는 형태<br>
+        -  <a href="mediaquery.html" class="saw" id="active">미디어쿼리 이동</a><br><br>
+        - <br><br>
+
+        14강 : css코드의 재사용
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>
